@@ -64,18 +64,20 @@ certifai -h
 #### Explore Sample Reports provided with the Certifai Toolkit:
 
 ```
+cd <path-to-folder-where-toolkit-was-unzipped>
 certifai console examples/reports
 ```
 
-#### Follow instructor how to run your own Certifai Scans
+#### Follow instructor how to explore Use Case its related models and Certifai Scan
 
 # Excersise 2
 
 #### In a terminal or PowerShell window set your context to the Certifai Toolkit notebooks directory
 
 ```
+cd <path-to-folder-where-toolkit-was-unzipped>
 cd examples/notebooks
 jupyter notebook
 ```
 
-#### Follow instructor how to run your own Certifai Scans
+#### Follow instructor how to run your own Certifai Scans in Jupyter notebook
