@@ -14,51 +14,68 @@ https://odsc.com/speakers/accelerate-ai-ml-workflows-in-hybrid-cloud-with-red-ha
 
 1) Set your context to the toolkit folder where you unzipped the contents of the Certifai Toolkit .zip during the download process.
 
-`cd <path-to-folder-where-toolkit-was-unzipped>`
+```
+cd <path-to-folder-where-toolkit-was-unzipped>
+```
 
 2) Create a Python 3.6 virtual environment.
 
-`conda create -n certifai-odsc python=3.6`
+```
+conda create -n certifai-odsc python=3.6
+```
 
 3) Activate the newly created environment.
 
-`conda activate certifai-odsc`
+```
+conda activate certifai-odsc
+```
 
 4) (To enable the use of Jupyter notebooks) Install the base requirements.
 
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 5) Install the CERTIFAI packages
 
-# For Mac or Linux
+##### For Mac or Linux
 
-`pip install packages/all/*``
-`pip install packages/python3.6/*``
+```
+pip install packages/all/*
+pip install packages/python3.6/*
+```
 
-# For Windows PowerShell
+##### For Windows PowerShell
 
-`Get-ChildItem .\packages\all\*.zip | ForEach-Object -Process { pip install $_ }`
-
-
-`Get-ChildItem .\packages\python3.6\*.zip | ForEach-Object -Process { pip install $_ }`
+```
+Get-ChildItem .\packages\all\*.zip | ForEach-Object -Process { pip install $_ }
+Get-ChildItem .\packages\python3.6\*.zip | ForEach-Object -Process { pip install $_ }
+```
 
 6) Verify that the Certifai CLI and client libraries are installed successfully.
 
-`certifai -h`
+```
+certifai -h
+```
 
 
-# Workshop 1
+# Excersise 1
 
-## Explore Sample Reports provided with the Certifai Toolkit:
+#### Explore Sample Reports provided with the Certifai Toolkit:
 
-`certifai console examples/reports`
+```
+certifai console examples/reports
+```
 
-# Workshop 2
+#### Follow instructor how to run your own Certifai Scans
 
-## In a terminal or PowerShell window set your context to the Certifai Toolkit notebooks directory
+# Excersise 2
 
-`cd examples/notebooks`
+#### In a terminal or PowerShell window set your context to the Certifai Toolkit notebooks directory
 
-`jupyter notebook`
+```
+cd examples/notebooks
+jupyter notebook
+```
 
-## Follow instructor how to run your own Certifai Scans
+#### Follow instructor how to run your own Certifai Scans
