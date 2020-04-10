@@ -60,18 +60,34 @@ certifai -h
 
 ### Excersise 1
 
+#### What you will learn
+* We will be demonstrating how to create a scan in Cortex Certifai for your own model.
+* Setup an evaluation for fairness, robustness, and explainability.
+* Run the scan and explore the evaluation
+
+
 #### In a terminal or PowerShell window set your context to the Certifai Toolkit notebooks directory
+
 
 ```
 cd <path-to-folder-where-toolkit-was-unzipped>
 cd examples/notebooks
 jupyter notebook
 ```
+We will be using this **tutorials\BringingInYourOwnModel.ipynb** notebook 
+
 
 #### Follow instructor how to run your own Certifai Scans in Jupyter notebook
 
 
 ### Excersise 2
+
+#### What you will learn
+* How to launch local Certifai Console
+* How Cortex Certifai projects are structured
+* Explore use case details
+* How the scan was setup
+* Evaluate few reports
 
 #### Explore Sample Reports provided with the Certifai Toolkit:
 
