@@ -37,8 +37,8 @@ https://odsc.com/speakers/accelerate-ai-ml-workflows-in-hybrid-cloud-with-red-ha
 
 # For Windows PowerShell
 
-`Get-ChildItem .\packages\all\*.zip | ForEach-Object -Process { pip install $_ }``
-`Get-ChildItem .\packages\python3.6\*.zip | ForEach-Object -Process { pip install $_ }``
+`Get-ChildItem .\packages\all\*.zip | ForEach-Object -Process { pip install $_ }`
+`Get-ChildItem .\packages\python3.6\*.zip | ForEach-Object -Process { pip install $_ }`
 
 6) Verify that the Certifai CLI and client libraries are installed successfully.
 
