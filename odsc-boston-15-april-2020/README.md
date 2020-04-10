@@ -95,6 +95,7 @@ We will be using this **tutorials\BringingInYourOwnModel.ipynb** notebook
 cd <path-to-folder-where-toolkit-was-unzipped>
 certifai console examples/reports
 ```
+The Console is available at: http://localhost:8000. Copy this URL into a browser to view your scan result visualizations.
 
 #### Follow instructor how to explore Use Case its related models and Certifai Scan
 
