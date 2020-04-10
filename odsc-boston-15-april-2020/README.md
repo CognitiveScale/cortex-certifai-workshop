@@ -6,8 +6,8 @@ https://odsc.com/speakers/accelerate-ai-ml-workflows-in-hybrid-cloud-with-red-ha
 # Prerequisites
 
 1) Download the Certifai toolkit - https://www.cognitivescale.com/download-certifai/
-2) Python 3.6 (We will use 3.6 so everyone is at the same level)
-3) Conda is installed
+2) Python is installed - https://www.python.org/downloads/
+3) Conda is installed - https://docs.conda.io/en/latest/miniconda.html
 4) Windows users must use PowerShell and have access to the folder where the toolkit was unzipped.
 
 # Install the Certifai Toolkit
