@@ -61,6 +61,26 @@ certifai -h
 ### Excersise 1
 
 #### What you will learn
+* How to launch local Certifai Console
+* How Cortex Certifai projects are structured
+* Explore use case details
+* How the scan was setup
+* Evaluate few reports
+
+#### Explore Sample Reports provided with the Certifai Toolkit:
+
+```
+cd <path-to-folder-where-toolkit-was-unzipped>
+certifai console examples/reports
+```
+The Console is available at: http://localhost:8000. Copy this URL into a browser to view your scan result visualizations.
+
+#### Follow instructor how to explore Use Case its related models and Certifai Scan
+
+
+### Excersise 2
+
+#### What you will learn
 * We will be demonstrating how to create a scan in Cortex Certifai for your own model.
 * Setup an evaluation for fairness, robustness, and explainability.
 * Run the scan and explore the evaluation
@@ -78,24 +98,4 @@ We will be using this **tutorials\BringingInYourOwnModel.ipynb** notebook
 
 
 #### Follow instructor how to run your own Certifai Scans in Jupyter notebook
-
-
-### Excersise 2
-
-#### What you will learn
-* How to launch local Certifai Console
-* How Cortex Certifai projects are structured
-* Explore use case details
-* How the scan was setup
-* Evaluate few reports
-
-#### Explore Sample Reports provided with the Certifai Toolkit:
-
-```
-cd <path-to-folder-where-toolkit-was-unzipped>
-certifai console examples/reports
-```
-The Console is available at: http://localhost:8000. Copy this URL into a browser to view your scan result visualizations.
-
-#### Follow instructor how to explore Use Case its related models and Certifai Scan
 
