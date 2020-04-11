@@ -21,13 +21,13 @@ cd <path-to-folder-where-toolkit-was-unzipped>
 2) Create a Python 3.6 virtual environment.
 
 ```
-conda create -n certifai-odsc python=3.6
+conda create -n certifai python=3.6
 ```
 
 3) Activate the newly created environment.
 
 ```
-conda activate certifai-odsc
+conda activate certifai
 ```
 
 4) (To enable the use of Jupyter notebooks) Install the base requirements.
