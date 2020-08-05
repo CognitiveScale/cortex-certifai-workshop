@@ -10,7 +10,7 @@
 
 # Install the Certifai Toolkit
 
-1) Set your context to the toolkit folder where you unzipped the contents of the Certifai Toolkit .zip during the download process.
+1) Set your context to the toolkit folder where you unzipped the contents of the Certifai Toolkit .zip during the download process. Name the folder "certifai_toolkit_1.3.3"
 
 ```
 cd <path-to-folder-where-toolkit-was-unzipped>
