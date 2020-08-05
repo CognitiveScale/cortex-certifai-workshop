@@ -90,9 +90,11 @@ The Console is available at: http://localhost:8000. Copy this URL into a browser
 ```
 cd <path-to-folder-where-toolkit-was-unzipped>
 cd examples/notebooks
+python -m ipykernel install --user --name certifai --display-name "Python (Certifai Model Env 1.3.3)"
 jupyter notebook
 ```
 We will be using this **tutorials\BringingInYourOwnModel.ipynb** notebook
+Select "Python (Certifai Model Env 1.3.3)" as your Kernel
 
 
 #### Follow instructor how to run your own Certifai Scans in Jupyter notebook
